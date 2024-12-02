@@ -55,6 +55,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 10rem 0;
+    width: 100%;
 }
 
 .about-section {
@@ -88,6 +89,14 @@ body {
         height: 100%;
         object-fit: cover;
         border-radius: 5%;
+    }
+
+    .middle__img--top {
+        grid-row: 1;
+    }
+
+    .middle__img--bottom {
+        grid-row: 2;
     }
 }
 
