@@ -98,7 +98,7 @@ body {
     }
 
     /* Styling på alla bilder */
-    .image {
+    .main-section__image {
         width: 100%;
         height: 100%;
         border-radius: 10%;
@@ -113,7 +113,7 @@ body {
     gap: 1rem;
     grid-template-rows: 2rem 15rem;
 
-    .image {
+    .main-section__image {
         grid-row: 2;
     }
 
