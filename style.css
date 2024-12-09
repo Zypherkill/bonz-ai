@@ -115,6 +115,7 @@ body {
 
     .main-section__image {
         grid-row: 2;
+        opacity: 100%;
     }
 
     .main-section__title {
@@ -125,6 +126,7 @@ body {
         grid-column: 1/3;
         grid-row: 3;
         font-weight: 400;
+        
     }
 }
 
