@@ -3,7 +3,7 @@
 
 /* Definierar lite variabler */
 :root {
-    --text-color: white;
+    --text-color: rgb(255, 255, 255);
     --main-font: 'Poppins';
     --button-color: #587F59;
 }
@@ -25,6 +25,7 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     width: 100vw;
+
 }
 
 /* Header styling på bonz.ai ikonen och texten */
@@ -65,9 +66,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-top: 1px solid white;
     border-bottom: 1px solid white;
+    border-top: 1px solid white;
     font-size: 1.2vmax;
+    margin-inline: auto;
 
     .menu__title, .menu__item {
         text-decoration: none;
